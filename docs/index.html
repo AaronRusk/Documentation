@@ -2,30 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace BOOSEapp | AaronsBooseApp </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace BOOSEapp | AaronsBooseApp ">
-      
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      <meta name="docfx:rel" content="../">
-      
-      <script type="module" src="./../public/docfx.min.js"></script>
-      <script>
-        const theme = localStorage.getItem('theme') || 'auto'
-        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-      </script>
+    <title>Namespace BOOSEapp | AaronsBooseApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Namespace BOOSEapp | AaronsBooseApp">
+
+    <!-- FIXED: Corrected asset paths -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="public/docfx.min.css">
+    <link rel="stylesheet" href="public/main.css">
+
+    <meta name="docfx:navrel" content="toc.html">
+    <meta name="docfx:tocrel" content="toc.html">
+    <meta name="docfx:rel" content="./">
+
+    <script type="module" src="public/docfx.min.js"></script>
+    <script>
+      const theme = localStorage.getItem('theme') || 'auto'
+      document.documentElement.setAttribute(
+        'data-bs-theme',
+        theme === 'auto'
+          ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+          : theme
+      );
+    </script>
   </head>
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="AaronsBooseApp">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="AaronsBooseApp">
             AaronsBooseApp
           </a>
         </div>
@@ -35,55 +43,55 @@
     <main class="container-xxl">
       <div class="content">
         <article data-uid="BOOSEapp">
+          <h1 id="BOOSEapp" class="text-break">Namespace BOOSEapp</h1>
 
-  <h1 id="BOOSEapp" data-uid="BOOSEapp" class="text-break">Namespace BOOSEapp</h1>
+          <h3 id="classes">Classes</h3>
 
-  <h3 id="classes">Classes</h3>
+          <!-- FIXED LINKS: removed ../api/, changed to api/ -->
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppCanvas.html">AppCanvas</a></dt>
+            <dd><p>Provides an implementation of BOOSE.ICanvas using System.Drawing.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppCanvas.html">AppCanvas</a></dt>
-    <dd><p>Provides an implementation of BOOSE.ICanvas using System.Drawing.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppCircle.html">AppCircle</a></dt>
+            <dd><p>Represents a command to draw an unfilled circle.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppCircle.html">AppCircle</a></dt>
-    <dd><p>Represents a command to draw an unfilled circle.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppClear.html">AppClear</a></dt>
+            <dd><p>Represents a command to clear the canvas.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppClear.html">AppClear</a></dt>
-    <dd><p>Represents a command to clear the canvas.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppCommandFactory.html">AppCommandFactory</a></dt>
+            <dd><p>Implements a command factory for the BOOSE app.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppCommandFactory.html">AppCommandFactory</a></dt>
-    <dd><p>Implements a command factory for the BOOSE app.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppDrawTo.html">AppDrawTo</a></dt>
+            <dd><p>Draws a line from the current pen position to a new coordinate.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppDrawTo.html">AppDrawTo</a></dt>
-    <dd><p>Draws a line from the current pen position to a new coordinate.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppMoveTo.html">AppMoveTo</a></dt>
+            <dd><p>Moves the pen to a new coordinate without drawing.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppMoveTo.html">AppMoveTo</a></dt>
-    <dd><p>Moves the pen to a new coordinate without drawing.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppPenColour.html">AppPenColour</a></dt>
+            <dd><p>Sets the pen color using RGB values.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppPenColour.html">AppPenColour</a></dt>
-    <dd><p>Sets the pen color using RGB values.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.AppRect.html">AppRect</a></dt>
+            <dd><p>Draws an unfilled rectangle.</p></dd>
+          </dl>
 
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.AppRect.html">AppRect</a></dt>
-    <dd><p>Draws an unfilled rectangle.</p></dd>
-  </dl>
-
-  <dl class="jumplist">
-    <dt><a class="xref" href="../api/BOOSEapp.Form1.html">Form1</a></dt>
-    <dd><p>Main GUI for the BOOSE interpreter.</p></dd>
-  </dl>
+          <dl class="jumplist">
+            <dt><a class="xref" href="api/BOOSEapp.Form1.html">Form1</a></dt>
+            <dd><p>Main GUI for the BOOSE interpreter.</p></dd>
+          </dl>
 
         </article>
       </div>
@@ -94,5 +102,6 @@
         <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
       </div>
     </footer>
+
   </body>
 </html>
